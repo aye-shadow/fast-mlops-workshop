@@ -1,1 +1,1 @@
-i was using pipreqs to create the requirements.txt file, and i just wanted to note an observation: the 'pipreqs /path/to/your/project' or in my case 'pipreqs .' command only adds stuff if it's actually imported in the .py files as well!
+Run `pip install -r requirements.txt` before running the main file: calculator.py
