@@ -1,0 +1,1 @@
+btw just wanted to say the command 'pipreqs /path/to/your/project' or in my case 'pipreqs .' only adds stuff if it's actually imported in the .py files as well!
