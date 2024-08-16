@@ -1,0 +1,7 @@
+FROM apache/airflow:latest
+
+# Copy any additional files or scripts you need
+COPY yourscript.sh /entrypoint.sh
+
+# Set the entrypoint to your script
+ENTRYPOINT ["/entrypoint.sh"]
